@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -414,6 +409,8 @@ ul.dropdown-menu.drp-mnu li a i {
 }
 .wthree_banner_bottom_left {
     padding-left: 0;
+    padding-bottom: 15px;
+
 }
 .wthree_banner_bottom_left_grid{
 	position:relative;
@@ -494,6 +491,8 @@ ul.dropdown-menu.drp-mnu li a i {
 	position:relative;
 	font-size: 2.5em;
 }
+
+
 .top-brands h3:after,.fresh-vegetables h3:after,.mail h3:after,.w3_login h3:after,.testimonials h3:after,.w3ls_w3l_banner_nav_right_grid h3:after,h3.title:after,.faq h3:after,.services h3:after,.about h3:after,.team h3:after,.events h3:after{
 	content: '';
     background: #FA1818;
@@ -876,10 +875,10 @@ button.submit.check_out{
 	z-index: 0;
 }
 /* Shine */
-.hover14 figure {
+. figure {
 	position: relative;
 }
-.hover14 figure::before {
+. figure::before {
 	position: absolute;
 	top: 0;
 	left: -75%;
@@ -893,7 +892,7 @@ button.submit.check_out{
 	-webkit-transform: skewX(-25deg);
 	transform: skewX(-25deg);
 }
-.hover14 figure:hover::before,.top_brand_left:hover .hover14 figure::before{
+. figure:hover::before,.top_brand_left:hover . figure::before{
 	-webkit-animation: shine .75s;
 	animation: shine .75s;
 }
@@ -2301,6 +2300,11 @@ ul.wmuSliderPagination {
 .agileinfo_mail_grids {
     margin: 3em 0 0;
 }
+
+.w3ls_w3l_banner_nav_right_grid{
+    padding: 15px;
+}
+
 .agileinfo_mail_grid_left ul:nth-child(2){
 	margin:3em 0;
 }
@@ -3233,7 +3237,7 @@ input.checkbox:checked:after {
 		float: left;
 		width: 50%;
 	}
-	.hover14.column {
+	..column {
 		width: 75%;
 		margin: 0 auto;
 	}
@@ -3564,7 +3568,7 @@ input.checkbox:checked:after {
 	.w3l_banner_nav_right_banner3_btml {
 		width: 68%;
 	}
-	.hover14.column {
+	..column {
 		width: 100%;
 	}
 	.w3ls_w3l_banner_nav_right_grid_head_grid {
